@@ -16,6 +16,12 @@ flags = []
 sockets = {}
 to_send = []
 
+# Secret Flags
+# b4cde669167eb79b186a86f23abecae7cf1bedbc9d1ff025fe9255b2ba5bad44
+# 20809e7f0459b71ee390be0a4fba61d1c17e04f5b5da2194e8cf45b0dfbe7aca
+# 8b7ecd25b13ebf3803af9146bc99a7cb8b83388723ec4b19b79cad0567909a8a
+# a468014a7be2b7a51fc7ceaa67e21617ef03a78e11df7e0b44d295ee611f85ea
+# 74d3af960d9af68130058e8b73774277f265f425ba8ff4cb6f3b1d4a4ba061b7
 
 def parse_friend(attributes):
     for attribute in attributes:
