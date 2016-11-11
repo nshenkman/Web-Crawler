@@ -60,7 +60,6 @@ def handle_response(path, response):
     for response_line in response_array:
         if 'HTTP/1.1 200 OK' in response_line:
             searched_friends.append(path)
-            print len(searched_friends)
         elif 'HTTP/1.1 302 FOUND' in response_line or 'HTTP/1.1 301 MOVED PERMANENTLY' in response_line:
             move_request = True
         elif 'HTTP/1.1 500 INTERNAL SERVER ERROR' in response_line:
